@@ -1,0 +1,55 @@
+.center {
+    text-align: center;
+    padding: 60px;
+    width: 40%;
+    margin: 80px auto 0px auto;
+    background-color: rgba(0, 0, 0, .75);
+    border-radius: 40px;
+}
+
+.center h2 {
+    color: white;
+    font-size: 30px;
+    margin: -40px 0px 30px -70px;
+    position: relative;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    width: 250px;
+    border: 0px;
+}
+
+.btnComprar {
+    text-align: center;
+    height: 50px;
+    width: 230px;
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color: #e50914;
+    margin: 24px 0px 12px;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: start;
+}
+
+.btnComprar:hover {
+    background-color: red;
+    transition: 400ms;
+}
+
+a:hover {
+    background-color: #e50914;
+    padding: 5px;
+    border: 0px;
+    border-radius: 4px;
+    transition: 400ms;
+}
